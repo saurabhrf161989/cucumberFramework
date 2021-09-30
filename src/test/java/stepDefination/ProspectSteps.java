@@ -153,28 +153,6 @@ public class ProspectSteps {
 		 Thread.sleep(3000);
 				
 	}
-<<<<<<< HEAD
-	
-	@Then("^user should land on shipping  page$")
-	public void user_should_land_on_shopping_page() throws Throwable {
-		
-		Boolean a=driver.findElement(By.xpath("//h1[text()='shipping Cart']")).isDisplayed();
-=======
-
-	@Then("^user should land on confirmation page$")
-	public void user_should_land_on_shopping_page() throws Throwable {
-		
-		Boolean a=driver.findElement(By.xpath("//h1[text()='confirmation info Cart']")).isDisplayed();
->>>>>>> f8c34b0 (local changes)
-		
-		
-		 Thread.sleep(3000);
-				
-	}
-<<<<<<< HEAD
-=======
-
->>>>>>> f8c34b0 (local changes)
 	@After
 	public void tearDown(Scenario scenario) throws InterruptedException, IOException{
 		
