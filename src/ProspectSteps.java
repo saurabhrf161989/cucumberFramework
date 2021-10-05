@@ -141,6 +141,18 @@ public class ProspectSteps {
 		 Thread.sleep(3000);
 				
 	}
+	
+	@Then("^user should land on business info page$")
+	public void user_should_land_on_shopping_page() throws Throwable {
+		
+		Boolean a=driver.findElement(By.xpath("//h1[text()='business Cart']")).isDisplayed();
+		
+		
+		 Thread.sleep(3000);
+				
+	}
+
+
 
 
 	
